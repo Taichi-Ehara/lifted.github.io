@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="長方形_43" data-name="長方形 43" width="30" height="30" transform="translate(958 4555)" fill="#333" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="facebook-black" transform="translate(-958 -4555)" clip-path="url(#clip-path)">
+    <path id="パス_45" data-name="パス 45" d="M88.018,23.66V12.881H91.7l.526-4.206H88.018V6.046c0-1.183.394-2.1,2.1-2.1h2.235V.131C91.83.131,90.515,0,89.07,0,85.915,0,83.68,1.972,83.68,5.521V8.675H80v4.206h3.68V23.66Z" transform="translate(887 4558)" fill="#333" fill-rule="evenodd"/>
+  </g>
+</svg>
