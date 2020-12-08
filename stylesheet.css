@@ -249,13 +249,18 @@ header img {
   margin-bottom: 100px;
 } */
 
+/* --------------------------------------------- */
+
 #mainslide {
   width: 100%;
   height: 100vh;
-  height: calc(100vh - 69px);
+/*   height: calc(100vh - 69px); */
   overflow: hidden;
   position: relative;
 }
+
+/* --------------------------------------------- */
+
 .waku h2 {
   width: 60%;
   max-width: 380px;
@@ -306,13 +311,18 @@ header img {
   }
 }
 
+/* --------------------------------------------- */
+
 #indexButton {
   display: inline-block;
   width: 100%;
-  height: 131px;
+  height: 260px;
   position: absolute;
   bottom: 0;
 }
+
+/* --------------------------------------------- */
+
 .index-menu {
   display: flex;
   position: relative;
@@ -341,9 +351,14 @@ header img {
   left: 65%;
   /* background-color: #fff; */
 }
+
+/* -------------------section-------------------------- */
+
 section {
   margin-bottom: 100px;
 }
+/* ------------------section--------------------------- */
+
 .container {
   padding: 0 9vw;
 }
