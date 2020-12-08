@@ -1,11 +1,11 @@
 $(function() {
   $(document).ready(function(){
 var hSize = $(window).height();
-  $('#mainslide').height(hSize); // アドレスバーを除いたサイズを付与
+  $('#mainslide, .slide-img img').height(hSize); // アドレスバーを除いたサイズを付与
 });
 $(window).resize(function(){ // ページをリサイズした時の処理
 var hSize = $(window).height();
-  $('#mainslide').height(hSize); // アドレスバーを除いたサイズを付与
+  $('#mainslide, .slide-img img').height(hSize); // アドレスバーを除いたサイズを付与
   });
 
   $('#menuButton').click(function() {
