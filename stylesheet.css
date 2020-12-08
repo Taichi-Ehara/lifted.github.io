@@ -784,7 +784,7 @@ footer {
     display: none;
   }
   #mainslide {
-    height: calc(100vh - 100px);
+    height: calc(100vh - 100px) !important;
   }
   .slide-img img {
     height: calc(100vh - 100px);
@@ -795,7 +795,7 @@ footer {
     width: 40%;
     max-width: 350px;
     bottom: 0;
-    right: -5%;
+    right: -2%;
   }
   .index-btn {
     width: 20px;
