@@ -394,6 +394,7 @@ section {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  padding-left: 20px;
 }
 .product-content li {
   width: 50%;
