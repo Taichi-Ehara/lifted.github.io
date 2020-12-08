@@ -115,14 +115,26 @@ ul {
 img {
   width: 100%;
 }
+
+
 body {
-  font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+  font-family: a-otf-gothic-bbb-pr6n, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-weight: 400;
   color: #333333;
   background-color: #F2F2F2;
 }
 .bold{
-  font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
-  font-weight: bold;
+  font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
+  font-weight: 600;
+}
+.roboto {
+  font-family: roboto, sans-serif;
+  font-weight: 500;
+}
+.section-title {
+
 }
 html {
   font-size: 62.5%;
@@ -233,6 +245,7 @@ header img {
   color: #333333;
   border-bottom: 3px solid #407E28;
   padding-bottom: 10px;
+  letter-spacing: 0.05em;
 }
 .burger-msk {
   display: none;
@@ -251,7 +264,7 @@ header img {
   width: 100%;
   height: 100vh;
 /*   height: calc(100vh - 69px); */
-    height: 92vh;
+    /* height: 92vh; */
   overflow: hidden;
   position: relative;
 }
@@ -354,7 +367,7 @@ section {
   font-size: 3.2rem;
   border-bottom: 2px solid #407E28;
   display: inline-block;
-  padding-bottom: 15px;
+  padding-bottom: 10px;
   letter-spacing: 0.1em;
   margin-bottom: 56px;
 }
@@ -365,7 +378,7 @@ section {
 .about-text h4 {
   font-size: 2.0rem;
   line-height: 1.5;
-  padding-bottom: 40px;
+  padding-bottom: 24px;
 }
 .br-tablet {
   display: none;
@@ -507,6 +520,10 @@ footer {
 }
 .social-icons span {
   display: none;
+}
+footer p {
+  font-size: 1.0rem;
+  letter-spacing: 0.05em;
 }
 
 @media (min-width: 768px) {
@@ -794,7 +811,7 @@ footer {
   #indexButton {
     width: 40%;
     max-width: 350px;
-    bottom: 0;
+    bottom: 0%;
     right: -2%;
   }
   .index-btn {
