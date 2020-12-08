@@ -287,8 +287,8 @@ header img {
 /* ------------------------------------------------------ */
 .slide-img img {
   width: inherit;
-  height: 100vh;
-/*   height: calc(100vh - 200px); */
+/*   height: 100vh; */
+  height: calc(100vh - 70px);
   position: absolute;
   top: 0;
   left: 50%;
@@ -320,7 +320,7 @@ header img {
 #indexButton {
   display: inline-block;
   width: 100%;
-  height: 260px;
+  height: 250px;
   position: absolute;
   bottom: 0;
 }
