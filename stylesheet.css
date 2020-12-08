@@ -273,16 +273,23 @@ header img {
   position: absolute;
   left: 50%;
 }
+
+/* ------------------------------------------- */
+
 .slide-img img {
   width: inherit;
-  height: 100vh;
-  height: calc(100vh - 200px);
+/*   height: 100vh;
+  height: calc(100vh - 200px); */
+  height: 784px;
   position: absolute;
   top: 0;
   left: 50%;
   transform: translate(-50%,0) scale(1);
   z-index: 0;
 }
+
+/* ------------------------------------------- */
+
 .slide-img img {
   /* animation-name: slide-anime; */
   animation-duration: 3s;
