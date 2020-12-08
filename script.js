@@ -1,12 +1,12 @@
 $(function() {
-//   $(document).ready(function(){
-// var hSize = $(window).height();
-//   $('.sp-adress-bar').height(hSize); // アドレスバーを除いたサイズを付与
-// });
-// $(window).resize(function(){ // ページをリサイズした時の処理
-// var hSize = $(window).height();
-//   $('.sp-adress-bar').height(hSize); // アドレスバーを除いたサイズを付与
-//   });
+  $(document).ready(function(){
+var hSize = $(window).height();
+  $('.sp-adress-bar').height(hSize); // アドレスバーを除いたサイズを付与
+});
+$(window).resize(function(){ // ページをリサイズした時の処理
+var hSize = $(window).height();
+  $('.sp-adress-bar').height(hSize); // アドレスバーを除いたサイズを付与
+  });
 
   $('#menuButton').click(function() {
     if ($('.icon').hasClass('close')) {
